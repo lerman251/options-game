@@ -1,0 +1,26 @@
+body {
+    background: url(homescreen.png);
+}
+body p {
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    left: 800px;
+    top: 700px;
+    font-size: 100px;
+    text-decoration: none;
+}
+body header {
+    position: absolute;
+    left: 700px;
+    top: 300px;
+    font-size: 100px;
+    color: blue;
+}
+#trolly1:hover {
+    color: purple;
+    text-decoration: underline;
+}
+#trolly1 {
+    text-decoration: none;
+}
