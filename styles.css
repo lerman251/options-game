@@ -82,5 +82,17 @@ p#Game-Over a {
 }
 p#Game-Over a:hover {
     color: darkred;
-    
+}
+#gameover4 {
+    position: absolute;
+    top: 500px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+}
+#gameover4:hover {
+    background-color: black;
+    color: white;
 }
