@@ -1,9 +1,8 @@
 html {
     text-align: center;
-}
-body {
     background: url(homescreen.png);
 }
+    
 body p#begin {
     position: absolute;
     text-align: center;
@@ -67,4 +66,21 @@ body a#gameover:hover {
 body a#trolly2:hover {
     color: white;
     background-color: black;
+}
+p#Game-Over {
+    position: absolute;
+    top: 500px;
+    left: 900px;
+    font-size: 30px;
+}
+#youlose {
+    background: url(gameover.png) center center / 100% no-repeat fixed;
+}
+p#Game-Over a {
+    text-decoration: none;
+    color: red;
+}
+p#Game-Over a:hover {
+    color: darkred;
+    
 }
