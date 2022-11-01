@@ -1,7 +1,10 @@
+html {
+    text-align: center;
+}
 body {
     background: url(homescreen.png);
 }
-body p {
+body p#begin {
     position: absolute;
     text-align: center;
     background-color: white;
@@ -10,17 +13,58 @@ body p {
     font-size: 100px;
     text-decoration: none;
 }
-body header {
+/* header styles */
+body header#start {
     position: absolute;
     left: 700px;
-    top: 300px;
+    top: 200px;
     font-size: 100px;
     color: blue;
 }
+body header#trolly2 {
+    position: absolute;
+    left: 650px;
+    top: 60px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+/* trolly */
 #trolly1:hover {
     color: purple;
     text-decoration: underline;
 }
 #trolly1 {
     text-decoration: none;
+}
+img#trolly2 {
+    margin-top: 200px;
+    width: 800px;
+    height: 600px;
+}
+body a#trolly2 {
+    position: absolute;
+    left: 150px;
+    top: 500px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 50px;
+}
+body a#gameover {
+    position: absolute;
+    right: 100px;
+    top: 500px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 50px;
+}
+body a#gameover:hover {
+    color: white;
+    background-color: black;
+}
+body a#trolly2:hover {
+    color: white;
+    background-color: black;
 }
