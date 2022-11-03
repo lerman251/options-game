@@ -107,7 +107,36 @@ p#Game-Over a:hover {
     top: 700px;
     left: 810px;
     font-size: 100px;
+    animation: youwin 2s;
+    animation-iteration-count: infinite;
 }
 #restart {
     text-decoration: none;
+}
+#markfly {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    width: 2532px;
+    height: 1170px;
+    background-image: url(markscary.png);
+    background-size: ;
+    animation: fly 6s linear;
+}
+@keyframes fly {
+    0% {
+        translate: -100vw;
+    }
+    50% {
+        translate: 0;
+    }
+
+}
+@keyframes youwin {
+    25% {
+        rotate: 4deg;
+    }
+    75% {
+        rotate: -4deg;
+    }
 }
