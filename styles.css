@@ -120,7 +120,6 @@ p#Game-Over a:hover {
     width: 2532px;
     height: 1170px;
     background-image: url(markscary.png);
-    background-size: ;
     animation: fly 6s linear;
 }
 @keyframes fly {
